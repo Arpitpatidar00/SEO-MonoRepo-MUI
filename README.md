@@ -19,21 +19,22 @@ This is a modular, fullstack monorepo project built using Nx to efficiently mana
 
 ---
 
-## 📁 Project Structure
+.
 ├── apps/
-│ ├── web/ # Frontend - Next.js 15 with App Router
-│ └── api/ # Backend - Node.js (Express)
+│   ├── web/               # Frontend - Next.js 15 with App Router
+│   └── api/               # Backend - Node.js (Express)
 │
 ├── libs/
-│ ├── ui-components/ # Shared MUI theme & component system
-│ ├── services/ # API layer (frontend/backend)
-│ ├── types/ # Shared TypeScript interfaces & enums
-│ └── utils/ # Shared utilities (e.g. date, formatting, validation)
+│   ├── ui-components/     # Shared MUI theme & component system
+│   ├── services/          # API layer (frontend/backend)
+│   ├── types/             # Shared TypeScript interfaces & enums
+│   └── utils/             # Shared utilities (e.g. date, formatting, validation)
 │
-├── tools/ # Nx custom generators and executors
-├── nx.json # Nx workspace configuration
-├── package.json # Root dependencies
-└── tsconfig.base.json # Shared TypeScript config
+├── tools/                 # Nx custom generators and executors
+├── nx.json                # Nx workspace configuration
+├── package.json           # Root dependencies
+└── tsconfig.base.json     # Shared TypeScript config
+
 
 
 ---
