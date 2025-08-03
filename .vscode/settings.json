@@ -1,0 +1,11 @@
+{
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "eslint.workingDirectories": [
+        {
+            "mode": "auto"
+        }
+    ],
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "typescript.preferences.includePackageJsonAutoImports": "on"
+}
